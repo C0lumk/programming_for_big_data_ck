@@ -38,3 +38,24 @@ if __name__ == '__main__':
     print(commits[0])
     print(commits[1]['author'])
     print(len(commits))
+    #print(commits[:3]['author']) # returns error
+    
+    index = 0
+    count = 0
+    name=raw_input('Enter name:')
+    while index < len(commits):
+        author = (commits[index]['author'])
+        #print author
+        authors = []
+        for author in authors:
+            if author not in authors:        
+               authors.append(author)
+        
+        index = index + 1
+        
+        if author == name:
+            count = count + 1
+    per_cent = round((float(count) / len(commits)) * 100,2)
+    print '{} made {} commits, which is {}% of total commits'.format(name,count,per_cent)
+    print authors
+    
