@@ -1,4 +1,6 @@
-# Program for a simple calculator with 10 functions
+#CA05 (a) - Program for a simple calculator with 10 functions using R programming language
+#Student name: Colum Kenny
+#Student number: 10330083
 
 add <- function(x, y) {
   return(x + y)

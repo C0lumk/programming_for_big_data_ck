@@ -2,7 +2,9 @@
 
 """Calculator using lambda, mapreduce, filter, list comprehension, generator"""
 
-#file no. 1 - defines the class Calculator and its methods/instances
+#CA05(b) - update calculator from CA01 to cater for lists
+#Student name: Colum Kenny
+#Student number: 10330083
 
 class Calculator(object):
    
